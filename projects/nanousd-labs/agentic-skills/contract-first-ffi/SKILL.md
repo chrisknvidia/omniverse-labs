@@ -85,3 +85,5 @@ Do not mix these policies accidentally.
 - Smoke test uses the installed binding, not an in-tree import accident.
 
 Integration verification: retain the documented boundary checks.
+
+Integration verification: keep the follow-up evidence explicit.
