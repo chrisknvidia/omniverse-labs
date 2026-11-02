@@ -1,0 +1,58 @@
+{
+  "total": 1,
+  "passed": 0,
+  "failed": 1,
+  "incomplete": 0,
+  "overall_passed": false,
+  "overall_status": "failed",
+  "total_validators": 12,
+  "total_errors": 2,
+  "total_warnings": 14,
+  "severity_counts": {
+    "critical": 0,
+    "high": 1,
+    "medium": 6,
+    "low": 5
+  },
+  "skills": [
+    {
+      "path": "projects/nanousd-labs/agentic-skills/agentic-codebase-cartography",
+      "report_dir": "skill-001",
+      "exit_code": 1,
+      "overall_status": "failed",
+      "incomplete_scans": [
+        "skillspector"
+      ],
+      "passed": false,
+      "total_validators": 12,
+      "total_errors": 2,
+      "total_warnings": 14,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 6,
+        "low": 5
+      }
+    }
+  ],
+  "selection": {
+    "mode": "changed",
+    "base": "c4ed6ca459484204b0cb084639754a6bae4972ab",
+    "base_ref": "c4ed6ca459484204b0cb084639754a6bae4972ab",
+    "head": "29e9e96b681feca573f944371f6311e0a6d62d96",
+    "discovered": 23,
+    "selected": [
+      "projects/nanousd-labs/agentic-skills/agentic-codebase-cartography"
+    ],
+    "deleted": [],
+    "changed_files": 1
+  },
+  "execution": {
+    "run_url": "https://github.com/chrisknvidia/omniverse-labs/actions/runs/41415614620",
+    "commit": "29e9e96b681feca573f944371f6311e0a6d62d96",
+    "image": "ghcr.io/chrisknvidia/skillevaluator-ci-demo@sha256:b55085bdfee17a0004dcb6330745ecbae029ab16887a2e81bfac7b7f1c9212c3",
+    "report_url": "",
+    "llm_enabled": false,
+    "workflow_sha": "54fa0114629c7a17f047017fbf04739741c1add0"
+  }
+}
