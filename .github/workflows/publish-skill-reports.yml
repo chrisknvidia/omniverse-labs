@@ -1,0 +1,38 @@
+# SPDX-License-Identifier: Apache-2.0
+# Optional: requires Pages, a retained gh-pages branch and your own trust settings.
+# Pages reports are public unless the site is explicitly private (GitHub Enterprise Cloud).
+# Reports include source evidence; private repositories should otherwise use scan artifacts.
+# Use the release-generated file; set your own URL and refresh the caller blob after scan-file edits.
+# Also grant id-token: write in skill-checks.yml so scans retain signed execution receipts.
+name: Publish skill reports
+on:
+  workflow_run:
+    workflows: [Skill checks]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      run-id:
+        description: Completed Skill checks run to publish
+        type: string
+        required: true
+      run-attempt:
+        description: Completed attempt number for that run
+        type: string
+        required: true
+permissions:
+  contents: write
+  actions: read
+  pages: write
+  id-token: write
+  pull-requests: write
+jobs:
+  reports:
+    uses: NVIDIA/SkillEvaluator/.github/workflows/publish-skill-reports.yml@36339548c6d718b7a8f79468f68a6a5056b24c65
+    with:
+      run-id: ${{ format('{0}', github.event.workflow_run.id || inputs.run-id) }}
+      run-attempt: ${{ format('{0}', github.event.workflow_run.run_attempt || inputs.run-attempt) }}
+      report-base-url: https://chrisknvidia.github.io/omniverse-labs/
+      trusted-evaluator-shas: 36339548c6d718b7a8f79468f68a6a5056b24c65
+      trusted-caller-blobs: f565336ceaf2b916e577df443bd8a9a2b574c0e2
+      tools-ref: 36339548c6d718b7a8f79468f68a6a5056b24c65
+      tools-repository: NVIDIA/SkillEvaluator
