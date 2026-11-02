@@ -27,12 +27,12 @@ permissions:
   pull-requests: write
 jobs:
   reports:
-    uses: chrisknvidia/SkillEvaluator-ci-demo/.github/workflows/publish-skill-reports.yml@81f858c0832de63f0d8fa28b98d39fef642ac811
+    uses: chrisknvidia/SkillEvaluator-ci-demo/.github/workflows/publish-skill-reports.yml@10211b5f399ba0d2876c12c2f9baa981b2e76921
     with:
       run-id: ${{ format('{0}', github.event.workflow_run.id || inputs.run-id) }}
       run-attempt: ${{ format('{0}', github.event.workflow_run.run_attempt || inputs.run-attempt) }}
       report-base-url: https://chrisknvidia.github.io/omniverse-labs/
       trusted-evaluator-shas: 81f858c0832de63f0d8fa28b98d39fef642ac811
       trusted-caller-blobs: 805a60ee86123619c53223d69f9cddd15a43d192
-      tools-ref: 81f858c0832de63f0d8fa28b98d39fef642ac811
+      tools-ref: 10211b5f399ba0d2876c12c2f9baa981b2e76921
       tools-repository: chrisknvidia/SkillEvaluator-ci-demo
