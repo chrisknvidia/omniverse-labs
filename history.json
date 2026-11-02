@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "run_id": 41415428367,
+    "run_attempt": 1,
+    "head_sha": "c4ed6ca459484204b0cb084639754a6bae4972ab",
+    "artifact_id": 13127706160,
+    "run_url": "https://github.com/chrisknvidia/omniverse-labs/actions/runs/41415428367",
+    "report_url": "https://chrisknvidia.github.io/omniverse-labs/runs/41415428367/1/",
+    "overall_status": "failed",
+    "ci_conclusion": "failure",
+    "event": "push",
+    "trusted_evaluator_sha": "36339548c6d718b7a8f79468f68a6a5056b24c65",
+    "image": "ghcr.io/chrisknvidia/skillevaluator-ci-demo@sha256:b55085bdfee17a0004dcb6330745ecbae029ab16887a2e81bfac7b7f1c9212c3"
+  }
+]
