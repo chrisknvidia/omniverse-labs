@@ -1,0 +1,36 @@
+{
+  "total": 0,
+  "passed": 0,
+  "failed": 0,
+  "incomplete": 0,
+  "overall_passed": false,
+  "overall_status": "skipped",
+  "total_validators": 0,
+  "total_errors": 0,
+  "total_warnings": 0,
+  "severity_counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0
+  },
+  "skills": [],
+  "selection": {
+    "mode": "changed",
+    "base": "c4ed6ca459484204b0cb084639754a6bae4972ab",
+    "base_ref": "c4ed6ca459484204b0cb084639754a6bae4972ab",
+    "head": "565cd3f6d03250440e5a873eff63dbecec05109c",
+    "discovered": 23,
+    "selected": [],
+    "deleted": [],
+    "changed_files": 0
+  },
+  "execution": {
+    "run_url": "https://github.com/chrisknvidia/omniverse-labs/actions/runs/41415770832",
+    "commit": "565cd3f6d03250440e5a873eff63dbecec05109c",
+    "image": "ghcr.io/chrisknvidia/skillevaluator-ci-demo@sha256:b55085bdfee17a0004dcb6330745ecbae029ab16887a2e81bfac7b7f1c9212c3",
+    "report_url": "",
+    "llm_enabled": false,
+    "workflow_sha": "56382ca6e949360626794ebfde1a45bc91a19e72"
+  }
+}
