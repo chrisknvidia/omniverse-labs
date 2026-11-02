@@ -83,3 +83,5 @@ Do not mix these policies accidentally.
 - Errors propagate with actionable text.
 - Build scripts install/update bindings after native rebuilds.
 - Smoke test uses the installed binding, not an in-tree import accident.
+
+Integration verification: retain the documented boundary checks.
