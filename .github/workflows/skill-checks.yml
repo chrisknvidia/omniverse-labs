@@ -12,7 +12,7 @@ permissions:
   id-token: write
 jobs:
   skills:
-    uses: NVIDIA/SkillEvaluator/.github/workflows/evaluate-skills.yml@36339548c6d718b7a8f79468f68a6a5056b24c65
+    uses: chrisknvidia/SkillEvaluator-ci-demo/.github/workflows/evaluate-skills.yml@81f858c0832de63f0d8fa28b98d39fef642ac811
     with:
       image: ghcr.io/chrisknvidia/skillevaluator-ci-demo@sha256:b55085bdfee17a0004dcb6330745ecbae029ab16887a2e81bfac7b7f1c9212c3
       paths: projects/nanousd-labs/agentic-skills
