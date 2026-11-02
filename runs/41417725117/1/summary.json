@@ -1,0 +1,56 @@
+{
+  "total": 1,
+  "passed": 1,
+  "failed": 0,
+  "incomplete": 0,
+  "overall_passed": true,
+  "overall_status": "passed",
+  "total_validators": 12,
+  "total_errors": 0,
+  "total_warnings": 13,
+  "severity_counts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 5,
+    "low": 5
+  },
+  "skills": [
+    {
+      "path": "projects/nanousd-labs/agentic-skills/contract-first-ffi",
+      "report_dir": "skill-001",
+      "exit_code": 0,
+      "overall_status": "passed",
+      "incomplete_scans": [],
+      "passed": true,
+      "total_validators": 12,
+      "total_errors": 0,
+      "total_warnings": 13,
+      "severity_counts": {
+        "critical": 0,
+        "high": 0,
+        "medium": 5,
+        "low": 5
+      }
+    }
+  ],
+  "selection": {
+    "mode": "changed",
+    "base": "c4ed6ca459484204b0cb084639754a6bae4972ab",
+    "base_ref": "c4ed6ca459484204b0cb084639754a6bae4972ab",
+    "head": "d225455a5b432290590606ed0eb3ab62ccac89f1",
+    "discovered": 23,
+    "selected": [
+      "projects/nanousd-labs/agentic-skills/contract-first-ffi"
+    ],
+    "deleted": [],
+    "changed_files": 1
+  },
+  "execution": {
+    "run_url": "https://github.com/chrisknvidia/omniverse-labs/actions/runs/41417725117",
+    "commit": "d225455a5b432290590606ed0eb3ab62ccac89f1",
+    "image": "ghcr.io/chrisknvidia/skillevaluator-ci-demo@sha256:b55085bdfee17a0004dcb6330745ecbae029ab16887a2e81bfac7b7f1c9212c3",
+    "report_url": "",
+    "llm_enabled": false,
+    "workflow_sha": "34dcc75d4975245456676f221ab6b9383fccc40e"
+  }
+}
