@@ -1,0 +1,470 @@
+{
+  "total": 23,
+  "passed": 0,
+  "failed": 23,
+  "incomplete": 0,
+  "overall_passed": false,
+  "overall_status": "failed",
+  "total_validators": 276,
+  "total_errors": 34,
+  "total_warnings": 323,
+  "severity_counts": {
+    "critical": 0,
+    "high": 24,
+    "medium": 139,
+    "low": 115
+  },
+  "skills": [
+    {
+      "path": "projects/nanousd-labs/agentic-skills/agentic-codebase-cartography",
+      "report_dir": "skill-001",
+      "exit_code": 1,
+      "overall_status": "failed",
+      "incomplete_scans": [
+        "skillspector"
+      ],
+      "passed": false,
+      "total_validators": 12,
+      "total_errors": 2,
+      "total_warnings": 14,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 6,
+        "low": 5
+      }
+    },
+    {
+      "path": "projects/nanousd-labs/agentic-skills/ai-agent-orchestration",
+      "report_dir": "skill-002",
+      "exit_code": 1,
+      "overall_status": "failed",
+      "incomplete_scans": [
+        "skillspector"
+      ],
+      "passed": false,
+      "total_validators": 12,
+      "total_errors": 2,
+      "total_warnings": 13,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 6,
+        "low": 4
+      }
+    },
+    {
+      "path": "projects/nanousd-labs/agentic-skills/contract-first-ffi",
+      "report_dir": "skill-003",
+      "exit_code": 1,
+      "overall_status": "failed",
+      "incomplete_scans": [],
+      "passed": false,
+      "total_validators": 12,
+      "total_errors": 1,
+      "total_warnings": 14,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 6,
+        "low": 5
+      }
+    },
+    {
+      "path": "projects/nanousd-labs/agentic-skills/graphics-debugging-lab",
+      "report_dir": "skill-004",
+      "exit_code": 1,
+      "overall_status": "failed",
+      "incomplete_scans": [],
+      "passed": false,
+      "total_validators": 12,
+      "total_errors": 1,
+      "total_warnings": 14,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 6,
+        "low": 5
+      }
+    },
+    {
+      "path": "projects/nanousd-labs/agentic-skills/layered-boundary-refactor",
+      "report_dir": "skill-005",
+      "exit_code": 1,
+      "overall_status": "failed",
+      "incomplete_scans": [],
+      "passed": false,
+      "total_validators": 12,
+      "total_errors": 1,
+      "total_warnings": 15,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 6,
+        "low": 6
+      }
+    },
+    {
+      "path": "projects/nanousd-labs/agentic-skills/legacy-retirement-clean-history",
+      "report_dir": "skill-006",
+      "exit_code": 1,
+      "overall_status": "failed",
+      "incomplete_scans": [],
+      "passed": false,
+      "total_validators": 12,
+      "total_errors": 1,
+      "total_warnings": 15,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 6,
+        "low": 6
+      }
+    },
+    {
+      "path": "projects/nanousd-labs/agentic-skills/nanousd-renderer-scene-extraction",
+      "report_dir": "skill-007",
+      "exit_code": 1,
+      "overall_status": "failed",
+      "incomplete_scans": [
+        "skillspector"
+      ],
+      "passed": false,
+      "total_validators": 12,
+      "total_errors": 2,
+      "total_warnings": 14,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 6,
+        "low": 5
+      }
+    },
+    {
+      "path": "projects/nanousd-labs/agentic-skills/physically-based-renderer-validation",
+      "report_dir": "skill-008",
+      "exit_code": 1,
+      "overall_status": "failed",
+      "incomplete_scans": [],
+      "passed": false,
+      "total_validators": 12,
+      "total_errors": 1,
+      "total_warnings": 14,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 6,
+        "low": 5
+      }
+    },
+    {
+      "path": "projects/nanousd-labs/agentic-skills/portable-build-runtime-paths",
+      "report_dir": "skill-009",
+      "exit_code": 1,
+      "overall_status": "failed",
+      "incomplete_scans": [
+        "skillspector"
+      ],
+      "passed": false,
+      "total_validators": 12,
+      "total_errors": 3,
+      "total_warnings": 13,
+      "severity_counts": {
+        "critical": 0,
+        "high": 2,
+        "medium": 6,
+        "low": 4
+      }
+    },
+    {
+      "path": "projects/nanousd-labs/agentic-skills/renderer-backend-port",
+      "report_dir": "skill-010",
+      "exit_code": 1,
+      "overall_status": "failed",
+      "incomplete_scans": [
+        "skillspector"
+      ],
+      "passed": false,
+      "total_validators": 12,
+      "total_errors": 2,
+      "total_warnings": 14,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 6,
+        "low": 5
+      }
+    },
+    {
+      "path": "projects/nanousd-labs/agentic-skills/renderer-capability-abi",
+      "report_dir": "skill-011",
+      "exit_code": 1,
+      "overall_status": "failed",
+      "incomplete_scans": [
+        "skillspector"
+      ],
+      "passed": false,
+      "total_validators": 12,
+      "total_errors": 2,
+      "total_warnings": 15,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 7,
+        "low": 5
+      }
+    },
+    {
+      "path": "projects/nanousd-labs/agentic-skills/renderer-constrained-backend",
+      "report_dir": "skill-012",
+      "exit_code": 1,
+      "overall_status": "failed",
+      "incomplete_scans": [],
+      "passed": false,
+      "total_validators": 12,
+      "total_errors": 1,
+      "total_warnings": 14,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 6,
+        "low": 5
+      }
+    },
+    {
+      "path": "projects/nanousd-labs/agentic-skills/renderer-feature-validation-matrix",
+      "report_dir": "skill-013",
+      "exit_code": 1,
+      "overall_status": "failed",
+      "incomplete_scans": [],
+      "passed": false,
+      "total_validators": 12,
+      "total_errors": 1,
+      "total_warnings": 13,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 6,
+        "low": 4
+      }
+    },
+    {
+      "path": "projects/nanousd-labs/agentic-skills/renderer-gpu-interop",
+      "report_dir": "skill-014",
+      "exit_code": 1,
+      "overall_status": "failed",
+      "incomplete_scans": [],
+      "passed": false,
+      "total_validators": 12,
+      "total_errors": 1,
+      "total_warnings": 15,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 6,
+        "low": 6
+      }
+    },
+    {
+      "path": "projects/nanousd-labs/agentic-skills/renderer-image-comparison-testing",
+      "report_dir": "skill-015",
+      "exit_code": 1,
+      "overall_status": "failed",
+      "incomplete_scans": [
+        "skillspector"
+      ],
+      "passed": false,
+      "total_validators": 12,
+      "total_errors": 2,
+      "total_warnings": 14,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 6,
+        "low": 5
+      }
+    },
+    {
+      "path": "projects/nanousd-labs/agentic-skills/renderer-implementation-roadmap",
+      "report_dir": "skill-016",
+      "exit_code": 1,
+      "overall_status": "failed",
+      "incomplete_scans": [],
+      "passed": false,
+      "total_validators": 12,
+      "total_errors": 1,
+      "total_warnings": 14,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 6,
+        "low": 5
+      }
+    },
+    {
+      "path": "projects/nanousd-labs/agentic-skills/renderer-performance-architecture",
+      "report_dir": "skill-017",
+      "exit_code": 1,
+      "overall_status": "failed",
+      "incomplete_scans": [],
+      "passed": false,
+      "total_validators": 12,
+      "total_errors": 1,
+      "total_warnings": 14,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 6,
+        "low": 5
+      }
+    },
+    {
+      "path": "projects/nanousd-labs/agentic-skills/renderer-realtime-sensor",
+      "report_dir": "skill-018",
+      "exit_code": 1,
+      "overall_status": "failed",
+      "incomplete_scans": [],
+      "passed": false,
+      "total_validators": 12,
+      "total_errors": 1,
+      "total_warnings": 15,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 6,
+        "low": 6
+      }
+    },
+    {
+      "path": "projects/nanousd-labs/agentic-skills/renderer-shader-host-layout-sync",
+      "report_dir": "skill-019",
+      "exit_code": 1,
+      "overall_status": "failed",
+      "incomplete_scans": [],
+      "passed": false,
+      "total_validators": 12,
+      "total_errors": 1,
+      "total_warnings": 14,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 6,
+        "low": 5
+      }
+    },
+    {
+      "path": "projects/nanousd-labs/agentic-skills/renderer-simulation-loop",
+      "report_dir": "skill-020",
+      "exit_code": 1,
+      "overall_status": "failed",
+      "incomplete_scans": [
+        "skillspector"
+      ],
+      "passed": false,
+      "total_validators": 12,
+      "total_errors": 2,
+      "total_warnings": 14,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 6,
+        "low": 5
+      }
+    },
+    {
+      "path": "projects/nanousd-labs/agentic-skills/renderer-stalled-parity-triage",
+      "report_dir": "skill-021",
+      "exit_code": 1,
+      "overall_status": "failed",
+      "incomplete_scans": [
+        "skillspector"
+      ],
+      "passed": false,
+      "total_validators": 12,
+      "total_errors": 2,
+      "total_warnings": 14,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 6,
+        "low": 5
+      }
+    },
+    {
+      "path": "projects/nanousd-labs/agentic-skills/renderer-target-architecture-design",
+      "report_dir": "skill-022",
+      "exit_code": 1,
+      "overall_status": "failed",
+      "incomplete_scans": [],
+      "passed": false,
+      "total_validators": 12,
+      "total_errors": 1,
+      "total_warnings": 14,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 6,
+        "low": 5
+      }
+    },
+    {
+      "path": "projects/nanousd-labs/agentic-skills/verification-led-development",
+      "report_dir": "skill-023",
+      "exit_code": 1,
+      "overall_status": "failed",
+      "incomplete_scans": [
+        "skillspector"
+      ],
+      "passed": false,
+      "total_validators": 12,
+      "total_errors": 2,
+      "total_warnings": 13,
+      "severity_counts": {
+        "critical": 0,
+        "high": 1,
+        "medium": 6,
+        "low": 4
+      }
+    }
+  ],
+  "selection": {
+    "mode": "all",
+    "base": null,
+    "head": null,
+    "discovered": 23,
+    "selected": [
+      "projects/nanousd-labs/agentic-skills/agentic-codebase-cartography",
+      "projects/nanousd-labs/agentic-skills/ai-agent-orchestration",
+      "projects/nanousd-labs/agentic-skills/contract-first-ffi",
+      "projects/nanousd-labs/agentic-skills/graphics-debugging-lab",
+      "projects/nanousd-labs/agentic-skills/layered-boundary-refactor",
+      "projects/nanousd-labs/agentic-skills/legacy-retirement-clean-history",
+      "projects/nanousd-labs/agentic-skills/nanousd-renderer-scene-extraction",
+      "projects/nanousd-labs/agentic-skills/physically-based-renderer-validation",
+      "projects/nanousd-labs/agentic-skills/portable-build-runtime-paths",
+      "projects/nanousd-labs/agentic-skills/renderer-backend-port",
+      "projects/nanousd-labs/agentic-skills/renderer-capability-abi",
+      "projects/nanousd-labs/agentic-skills/renderer-constrained-backend",
+      "projects/nanousd-labs/agentic-skills/renderer-feature-validation-matrix",
+      "projects/nanousd-labs/agentic-skills/renderer-gpu-interop",
+      "projects/nanousd-labs/agentic-skills/renderer-image-comparison-testing",
+      "projects/nanousd-labs/agentic-skills/renderer-implementation-roadmap",
+      "projects/nanousd-labs/agentic-skills/renderer-performance-architecture",
+      "projects/nanousd-labs/agentic-skills/renderer-realtime-sensor",
+      "projects/nanousd-labs/agentic-skills/renderer-shader-host-layout-sync",
+      "projects/nanousd-labs/agentic-skills/renderer-simulation-loop",
+      "projects/nanousd-labs/agentic-skills/renderer-stalled-parity-triage",
+      "projects/nanousd-labs/agentic-skills/renderer-target-architecture-design",
+      "projects/nanousd-labs/agentic-skills/verification-led-development"
+    ],
+    "deleted": []
+  },
+  "execution": {
+    "run_url": "https://github.com/chrisknvidia/omniverse-labs/actions/runs/41417648675",
+    "commit": "02a139a4906b770842cd87cdbf5cc5591a153dcf",
+    "image": "ghcr.io/chrisknvidia/skillevaluator-ci-demo@sha256:b55085bdfee17a0004dcb6330745ecbae029ab16887a2e81bfac7b7f1c9212c3",
+    "report_url": "",
+    "llm_enabled": false,
+    "workflow_sha": "02a139a4906b770842cd87cdbf5cc5591a153dcf"
+  }
+}
