@@ -77,3 +77,5 @@ Prefer this structure:
 - Do not “clean up” compatibility paths until the current supported version policy is clear.
 - Do not assign agents overlapping write ownership.
 - Do not let exploration end without a concrete integration/test plan.
+
+Integration verification: keep evidence paths relative to this repository.
