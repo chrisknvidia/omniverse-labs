@@ -12,10 +12,11 @@ permissions:
   id-token: write
 jobs:
   skills:
-    uses: chrisknvidia/SkillEvaluator-ci-demo/.github/workflows/evaluate-skills.yml@81f858c0832de63f0d8fa28b98d39fef642ac811
+    uses: NVIDIA/SkillEvaluator/.github/workflows/evaluate-skills.yml@e4cda13a85f34fa7a112b3529feaf24cfe587caf
     with:
-      image: ghcr.io/chrisknvidia/skillevaluator-ci-demo@sha256:b55085bdfee17a0004dcb6330745ecbae029ab16887a2e81bfac7b7f1c9212c3
+      image: ghcr.io/nvidia/skillevaluator-tier1@sha256:c75c826f0e52d6c9a8d303ad7eefd606ed86e6940123f42b4eda2457863bcee7
       paths: projects/nanousd-labs/agentic-skills
       min-score: 70
       scan-mode: auto
       llm: false
+      report-base-url: https://chrisknvidia.github.io/omniverse-labs/
