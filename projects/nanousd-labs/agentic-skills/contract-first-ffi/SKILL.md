@@ -1,6 +1,8 @@
 ---
 name: contract-first-ffi
 description: Maintain C ABIs and language bindings as exact, testable contracts. Use when evolving public headers, ctypes/cffi/pybind/Rust/JS bindings, shared libraries, struct layouts, GPU/native APIs, or any cross-language boundary where drift can cause crashes or silent corruption.
+metadata:
+  author: SkillEvaluator integration test <ci-demo@example.com>
 ---
 
 # Contract-First FFI
@@ -81,3 +83,7 @@ Do not mix these policies accidentally.
 - Errors propagate with actionable text.
 - Build scripts install/update bindings after native rebuilds.
 - Smoke test uses the installed binding, not an in-tree import accident.
+
+Integration verification: retain the documented boundary checks.
+
+Integration verification: keep the follow-up evidence explicit.
