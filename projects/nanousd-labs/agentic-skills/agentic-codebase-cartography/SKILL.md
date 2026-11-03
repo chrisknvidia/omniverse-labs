@@ -1,6 +1,8 @@
 ---
 name: agentic-codebase-cartography
 description: Map unfamiliar or multi-repository codebases before refactoring, integration, or feature work. Use when Codex needs to analyze submodules, ownership boundaries, APIs, duplicate implementations, build/test surfaces, risk areas, and a practical refactor sequence before changing code.
+metadata:
+  author: SkillEvaluator integration test <ci-demo@example.com>
 ---
 
 # Agentic Codebase Cartography
@@ -77,3 +79,5 @@ Prefer this structure:
 - Do not “clean up” compatibility paths until the current supported version policy is clear.
 - Do not assign agents overlapping write ownership.
 - Do not let exploration end without a concrete integration/test plan.
+
+Integration verification: keep evidence paths relative to this repository.
