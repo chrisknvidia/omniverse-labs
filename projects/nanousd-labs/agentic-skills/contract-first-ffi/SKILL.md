@@ -1,5 +1,5 @@
 ---
-name: INVALID NAME
+name: contract-first-ffi
 description: Maintain C ABIs and language bindings as exact, testable contracts. Use when evolving public headers, ctypes/cffi/pybind/Rust/JS bindings, shared libraries, struct layouts, GPU/native APIs, or any cross-language boundary where drift can cause crashes or silent corruption.
 metadata:
   author: SkillEvaluator integration test <ci-demo@example.com>
