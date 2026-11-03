@@ -9,7 +9,7 @@ on:
 permissions:
   contents: read
   # Hosted reports/PR comments: uncomment this, then refresh trusted-caller-blobs.
-  # id-token: write
+  id-token: write
 jobs:
   skills:
     uses: NVIDIA/SkillEvaluator/.github/workflows/evaluate-skills.yml@e4cda13a85f34fa7a112b3529feaf24cfe587caf
@@ -19,3 +19,4 @@ jobs:
       min-score: 70
       scan-mode: auto
       llm: false
+      report-base-url: https://chrisknvidia.github.io/omniverse-labs/
